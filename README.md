@@ -1,4 +1,5 @@
 # gadgets
+
 杂七杂八的一些小程序
 
 ## 说明
@@ -12,6 +13,7 @@
 |philosophy-in-using-mobiles|手机使用哲学|
 |wangdao_spider|王道学员就业数据爬虫及爬取结果|
 |xuexitong_auto_comment|学习通自动评论器，刷网课时必备|
+|BiliBili_favourite_extractor.js|B 站收藏夹视频链接提取，配合 you-get 使用，即可下载全部收藏夹视频（非原创，[原作出处](https://www.bilibili.com/video/av98652912/)）|
 |Day-off Generator.user.js|油猴脚本。用于 http://49.122.0.29:8002/xgxt/qjsqbase.do 的假条自动生成。配合 Kiwi Browser，出入自由~|
 |avatar.html|输入 QQ 号，获取高清头像（非原创）|
 |DPIFix.cmd|修复笔记本电脑全局缩放所产生的一些模糊问题（非原创）|
