@@ -6,6 +6,7 @@ Description: get, parse and save words into vocabulary
 
 import requests
 from bs4 import BeautifulSoup
+import xlsxwriter
 
 
 def get_html(url):
@@ -106,7 +107,7 @@ class Craworder:
 
             progressbar(i+1, length, word, 0)
             self.words[i] = parse_detail(word, trans)
-            status_code = 1 if (self.words[i][1] != '' and self.words[i] != '') else 2
+            status_code = 1 if self.words[i][2] else 2
             progressbar(i+1, length, word, status_code)
         print()  # to start a new line due to progressbar
 
@@ -116,7 +117,62 @@ class Craworder:
                 print(word, sdmk, trans, sep=',', file=f)
 
     def save_words_to_xlsx(self, filename='vocabulary.xlsx'):
-        pass
+        # If file already exists, delete it.
+        import os
+        if os.path.exists(filename):
+            os.remove(filename)
+
+        # Create a workbook and add a worksheet.
+        workbook = xlsxwriter.Workbook(filename)
+        worksheet = workbook.add_worksheet()
+        
+        # Add some formats.
+        header_format = workbook.add_format({'bold': 1})
+        header_format.set_border()
+
+        id_format = workbook.add_format({'bold': 1})
+        id_format.set_border()
+        id_format.set_align('vcenter')
+
+        data_format = workbook.add_format()
+        data_format.set_text_wrap()
+        data_format.set_border()
+        data_format.set_align('vcenter')
+
+        # Adjust the column width.
+        worksheet.set_column(0, 0, 3.44)  # id
+        worksheet.set_column(1, 1, 15.78)  # word
+        worksheet.set_column(2, 2, 22.56)  # soundmark
+        worksheet.set_column(3, 3, 39.78)  # translation
+
+        # Write some data headers.
+        worksheet.write('A1', '', header_format)
+        worksheet.write('B1', 'WORD', header_format)
+        worksheet.write('C1', 'SOUNDMARK', header_format)
+        worksheet.write('D1', 'TRANSLATION', header_format)
+
+        # Start from the first cell below the headers.
+        row = 1
+        col = 0
+
+        for word, sdmk, trans in self.words:
+            worksheet.write(row, col, row, id_format)
+            worksheet.write(row, col + 1, word, data_format)
+            worksheet.write(row, col + 2, sdmk, data_format)
+            worksheet.write(row, col + 3, trans, data_format)
+            row += 1
+
+        # Set header and footer
+        worksheet.set_header('&CCreated at &D &T')
+        worksheet.set_footer('&CPage &P of &N')
+
+        workbook.close()
+
+        def __repr__(self):
+            string = ''
+            for item in self.words:
+                string += f'{item[0]}, {item[1]}, {item[2]}\n'
+            return string
 
     def __repr__(self):
         string = ''
