@@ -25,7 +25,7 @@ def parse_detail(word, trans='', root='http://www.youdao.com/w/'):
     sdmk = ''
     tmp = soup.find_all(name='span', attrs={'class': 'phonetic'})
     if tmp and len(tmp) > 0:
-        sdmk = tmp[-1].string.replace(',', '，')  # ensure no ',' in the final csv file
+        sdmk = tmp[0].string.replace(',', '，')  # ensure no ',' in the final csv file
 
     # parse translation
     tmp = soup.find_all(attrs={'class': 'trans-container'})
