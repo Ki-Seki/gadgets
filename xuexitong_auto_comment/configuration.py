@@ -1,6 +1,6 @@
 # 学习通的账号和密码
-phone = "15286828533"
-password = "Ksk517sXxt."
+phone = "12345678900"
+password = "12345678900"
 
 # 要刷的评论数量
 count = 10
