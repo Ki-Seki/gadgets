@@ -10,10 +10,13 @@
 |Craworder|根据给出的条目，自动爬取有道词典的单词，注音及释义；将其保存为可打印的表格|
 |minkch_spider|minkch.com 的爬虫|
 |philosophy-in-using-mobiles|手机使用哲学|
+|vscode_c_cpp_config|VSCode C/C++ 编译环境配置文件|
 |wangdao_spider|王道学员就业数据爬虫及爬取结果|
 |xuexitong_auto_comment|学习通自动评论器，刷网课时必备|
 |zhihu_spider|知乎爬虫|
 |Day-off Generator.user.js|油猴脚本。用于 http://49.122.0.29:8002/xgxt/qjsqbase.do 的假条自动生成。配合 Kiwi Browser，出入自由~|
+
+> 所有原创作品遵循 [MIT](./LICENSE) 协议
 
 ## 非原创作品
 
