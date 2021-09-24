@@ -1,0 +1,5 @@
+.idea
+MinkchSpider/__pycache__/
+MinkchSpider/medias/
+MinkchSpider/spiders/__pycache__/
+MinkchSpider/utils/__pycache__/
