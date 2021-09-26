@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+          /* 初始状态 */
+
+          #myImg {
+              width: 50%;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: opacity 0.3;
+          }
+          #myImg:hover {
+              opacity: 0.7;
+          }
+
+        /* 图像模态 */
+
+          .modal {
+              display: none;
+              position: fixed;
+              z-index: 1;
+              padding-top: 100px;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.9);
+          }
+          .modal-content {
+              margin: auto;
+              display: block;
+              height: 70%;
+              max-width: 1500px;
+          }
+          #caption {
+              margin: auto;
+              display: block;
+              width: 80%;
+              max-width: 700px;
+              text-align: center;
+              color: #ccc;
+              padding: 50px 0;
+              height: 150px;
+          }
+
+          /* 动画 */
+
+          @keyframes zoom {
+              from {transition: scale(0.1);}
+              to {transition: scale(1);}
+          }
+          .modal-content, #caption {
+              animation-name: zoom;
+              animation-duration: 0.6s;
+          }
+
+          /* 关闭模态的按钮 */
+          
+          .close {
+              position: absolute;
+              top: 15px;
+              right: 15px;
+              color: #f1f1f1;
+              font-size: 40px;
+              font-weight: bold;
+              transition: 0.3s;
+          }
+          .close:hover, .close:active {
+              color: #bbb;
+              /* text-decoration: none; */
+              cursor: pointer;
+          }
+
+          /* RDW */
+
+          @media only screen and (max-width: 700px) {
+              .modal-content {
+                  width: 100%;
+              }
+          }
+      </style>  
+    </head>
+    <body>
+        <h1>图像模态</h1>
+        <p>在此例中，我们使用 CSS 创建默认情况下隐藏的模式（对话框）。</p>
+        <p>我们使用 Javascript 触发模态，并在单击模态时在模态内显示当前图像。还请注意，我们将图像的“alt”属性中的值用作模态内的图像标题文本。</p>
+
+        <!-- 图像模态 -->
+        <img id="myImg" src="./img/planet.jpg" alt="绿茵场">
+        <div id="myModal" class="modal">
+            <span class="close">×</span>
+            <img id="img01" class="modal-content">
+            <div id="caption"></div>
+        </div>
+        <!-- 图像模态结束 -->
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function() {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (×), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+        </script>
+    </body>
+</html>
