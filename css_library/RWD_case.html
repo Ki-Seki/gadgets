@@ -1,0 +1,89 @@
+<!-- 
+    一个响应式网页设计案例
+
+    HTML 结构大致为：
+    * header
+    * content（响应式部分）
+        * left content
+        * middle content
+        * right content
+    * footer
+
+    CSS 步骤：
+    1. 全局设置 `box-sizing` 为边框盒
+    2. 构造 12 列的响应视图
+        1. 按照 `col-` 的格式为每一列创建样式
+        2. 所有列应当向左浮动，并给予适当内边距
+        3. html 中所有 `.col-` 元素，即响应元素都应该被包含在 `.row` 中
+        4. 清除浮动
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Responsive Web Design Case</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* 2.1. 为每一列定义样式 */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        /* 2.2. 所有列应当向左浮动，并给予适当内边距 */
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 1px solid red;  /* 为了便于观察 */
+        }
+
+        /* 2.3. 清除浮动 */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Shanghai</h1>
+    </div>
+
+    <div class="content row">
+
+        <div class="left-content col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laborum aliquid accusantium expedita in labore maxime ullam sit dolor ex!
+        </div>
+
+        <div class="middle-content col-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, vitae. Id magnam vero sequi commodi. Iste error excepturi nobis eum cumque optio repellendus ab earum ea a ratione quaerat, neque voluptas! Alias velit inventore soluta accusamus saepe corporis dolorum, repellat explicabo doloremque modi eaque facere!
+        </div>
+
+        <div class="right-content col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor ea minus odit nemo et ipsa, nobis, illo deleniti doloremque facere esse non magnam eveniet molestiae tempora quibusdam ipsam totam necessitatibus! Aliquam reiciendis inventore optio?
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>请调整浏览器窗口的大小，以查看内容如何响应调整大小。</p>
+    </div>
+</body>
+</html>

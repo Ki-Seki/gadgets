@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+
+    <style>
+        button {
+            margin: 10px auto;
+            border: 1px solid black;
+            display: block;
+            padding: 15px 30px;
+            font-size: 1.25em;
+            font-weight:lighter;
+            border-radius: 10px;
+            color: white;
+        }
+
+        button.style1 {
+            color: white;
+            background-color: rgb(42, 158, 42);
+            border: 2px solid rgb(42, 158, 42);
+            transition-duration: 0.5s;
+        }
+        button.style1:hover {
+            color: black;
+            background-color: white;
+        }
+
+        button.style2 {
+            border-radius: 0 0 15px 0;
+            height: 180px;
+            width: 300px;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 5px rgb(73, 72, 72);
+            color: white;
+            background-color: rgb(158, 69, 42);
+            border: none;
+            transition-duration: 0.5s;
+        }
+        button.style2:hover {
+            box-shadow: none;
+        }
+
+        /* 这个动画按钮的整体方案如下：
+        将文字放入 span 内，采用相对定位
+        使用 ::after 伪元素添加双箭头，采取绝对定位
+        让初始时，伪元素定位到按钮外边并且设置不可见；
+        hover 时，伪元素给一个 right 值，并且设置可见，
+        同时 span 元素要整体向左一点，以便对称 */
+        button.style3 {
+            background-color: red;
+            border: none;
+            width: 200px;
+            transition-duration: all 0.5s;
+        }
+        button.style3 > span {
+            position: relative;  /* 相对定位以便移动元素 */
+            transition-duration: 0.5s;
+        }
+        button.style3 > span::after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            right: -20px;
+            transition-duration: 0.5s;
+        }
+        button.style3:hover > span {
+            padding-right: 25px;
+        }
+        button.style3:hover > span::after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <button class="style1">悬停彩色按钮</button>
+    <button class="style2">卡片按钮</button>
+    <button class="style3"><span>动画按钮</span></button>
+</body>
+</html>
