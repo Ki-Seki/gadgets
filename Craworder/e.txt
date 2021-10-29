@@ -1,316 +1,267 @@
-﻿1@gymnasium@n. 健身房, 体育馆
-2@have enough of@
-3@catch up with@- 追上, 赶上
-- 对…产生坏影响
-- 查出来并抓获
-4@revelation@- n. 显露, 泄露, 透露, 揭露
-- 被揭露的事, 暴露出来的事
-5@plot@- n. 故事情节
-- (秘密)计划, 密谋
-- 小块地皮
-- vt. 把…分成小块; 划分
-- 绘制; 标出
-- vt. & vi. 密谋
+﻿1@0.437@
+2@alibaba group@
+3@arrangement@- n. 安排; 解决办法
+- 约定; 协议
+- 布置好的东西
+- 改编曲
+4@best-seller@n. 畅销书；畅销唱片
+5@bold@- adj. 勇敢的, 无畏的
+- 冒失的, 鲁莽的
+- 明显的, 醒目的
+- 粗体的, 黑体的
 
-时 态:  
-plotted, plotting, plots
-6@teleplay@n. 电视剧
-7@spinoff@n. 续集（电视剧的）；副产品；附带的利益
-8@variety shows@
-9@Bolshevik@n. 布尔什维克
-
-形容词:  
-Bolshevik
-10@traction@n. 牵引；牵引力
-11@anarchism@n. 无政府主义
-
-
-形容词:  
-anarchistic
-12@rejuvenate@vt. 使变得年轻, 使恢复活力
-
-时 态:  
-rejuvenated, rejuvenating, rejuvenates 
-
-名 词:  
-rejuvenation
-
-名 词:  
-rejuvenator
-13@embark@- vi. 上船或飞机；从事，着手
-- vt. 使上船；使从事
-
-
-时 态:  
-embarked, embarking, embarks
-14@rampant@- adj. (尤指疾病, 社会弊端)猖獗的; 无法控制的
-- (指动物)只用后腿站起来的
-
-名 词:  
-rampancy
+比较级:  
+bolder, boldest 
 
 副 词:  
-rampantly
-15@hectares@n. 公顷（hectare的复数）
-16@remark@- n. 话语, 评论
-- 注意; 看; 观察
-- vt. & vi. 谈论, 评论
+boldly
+
+名 词:  
+boldness
+6@boom@- vt. 发隆隆声；使兴旺
+- vi. 发隆隆声；急速发展
+- n. 繁荣；隆隆声；吊杆
+
+
+时 态:  
+boomed, booming, booms
+7@Chinese episode@
+8@Chinese series@
+9@clamped down@
+10@complete@- adj. 完整的, 完全的
+- 完成的, 结束的
+- 完满的, 圆满的
+- 彻底的, 完完全全的
+- vt. 完成, 结束
+- 使完善
+
+比较级:  
+completer, completest 
+缩 写:  
+comp, cpl
+
+副 词:  
+completely
+
+名 词:  
+completeness
+
+形容词:  
+completive...
+11@conference@- n. 会议
+- 讨论, 商谈
+
+形容词:  
+conferential
+12@csrf@
+13@diagram@- n. 图表；图解
+- vt. 用图解法表示
+
+
+时 态:  
+diagrammed, diagramed 
+diagramming, diagraming 
+diagrams, diagrams  
+
+形容词:  
+diagrammatic
+14@ecnomy boom@
+15@enables me@
+16@eve@- n. (宗教节日或假日的)前日, 前夕
+- (重大事件发生的)前一刻
+Even. 夏娃(基督教《圣经》故事人物)
+17@get back on track@
+18@goggles@n. 护目镜
+19@ideal@- adj. 理想的；完美的；想象的；不切实际的
+- n. 理想；典范
+20@ideology@n. 意识形态；思想意识；观念学
+
+
+名 词:  
+ideologist
+21@I'm yolo@
+22@imaginative@adj. 富于想像力的; 运用想像力的
+
+副 词:  
+imaginatively
+23@impromptu@- adj. & adv. 事先无准备(的), 临时(的)
+- n. 即兴曲
+24@IMT@abbr. 国际移动通信（International Mobile Telecommunications）；智能多模式终端（Intelligent Multimode Terminal）
+25@inheitance@
+26@inner peace@
+27@it is only with heart@
+28@lasting-time@
+29@lastingtime@
+30@manipulate@vt. 熟练控制[操作]
+
+时 态:  
+manipulated, manipulating, manipulates 
+
+形容词:  
+manipulative
+
+名 词:  
+manipulator
+
+形容词:  
+manipulatory
+31@PCL@abbr. 打印机控制语言（Printer Control Language）
+32@prep@- n. 家庭作业(=preparation)
+- vi. 进预备学校
+- 做家庭作业
+- vt. 使(某人)做好进行手术〔考试〕的准备
+- adj. 预备的
+PREPabbr. Product Reliability Evaluation Program 产品可靠性鉴定计划
+
+时 态:  
+prepped, prepping, preps...
+33@refactored@
+34@remark@- n. 话语，评论
+- 注意；看；观察
+- vt. & vi. 谈论，评论
 - vt. 注意到…
 
 时 态:  
-remarked, remarking, remarks
-17@boast@- n. 自吹自擂, 自夸的话
-- vt. & vi. 自夸
-- vt. 有(引以为荣的事物)
+remarked，remarking，remarks
+35@render@- vt. 报答；归还；给予
+- 呈递；提供；开出
+- 演出；扮演；演奏
+- 翻译
+- 使；致使
 
 时 态:  
-boasted, boasting, boasts 
+rendered，rendering，renders 
 
 名 词:  
-boaster
+renderer
+36@revised@改进的
+37@screens@整流网
+38@series@n. 系列，连续；丛书；[电]串联；[数]级数
+39@session@n. 会议；（法庭的）开庭；（议会等的）开会；学期；讲习会
+
 
 形容词:  
-boastful
-18@polytechnic@n. 理工学院
-19@anchorperson@n. 节目主持人
-20@prime-time@
-21@comedy@- n. 喜剧
-- 喜剧性
-22@sitcom@n. 情景喜剧
-23@have the nerve to@
-24@tone@- n. 音调；音色；语气；色调
-- vt. 用某种调子说；增强
-- vi. 颜色调和；呈现悦目色调
+sessional
+40@Sino@
+41@slug@- n. 鼻涕虫；动作缓慢的人；金属小块
+- vi. 偷懒；动作迟缓
+- vt. 重击
 
-Tone托恩(姓氏)
 
 时 态:  
-toned, toning, tones
-25@divine@- adj. 神圣的；非凡的；天赐的；极好的
-- vt. 占卜；预言；用占卜勘探
-- vi. 占卜；预言；使用占卜勘探矿
-- n. 牧师；神学家
+slugged, slugging, slugs  
 
+
+
+时 态:  
+slugged, slugging, slugs
+42@timid@- adj. 胆小的
+- 羞怯的
 
 比较级:  
-diviner, divinest 
+timider, timidest 
 
 副 词:  
-divinely
+timidly
+43@unbalanced@- adj. 不平衡的;不稳定的;不均衡的
+- 精神错乱的
+- 未决算的;未精算的;收支不平衡的
+44@unbanlanced@
+45@virtue@- n. 美德, 德行
+- 优点, 长处
+46@virtue for the poor@
+47@voluntary@- adj. 自愿的, 志愿的
+- 义务的, 无偿的
+
+副 词:  
+voluntarily
 
 名 词:  
-diviner
-26@amuck@adv. 疯狂地
-27@karaoke@n. 卡拉OK
-Karaoken. (Jap.)卡拉OK录音，自动伴奏录音
-28@cadre@n. 干部；基础结构；骨骼
-29@perfunctory@- adj. 敷衍的,马虎的,例行公事的
-- 肤浅的,浅薄的
-
-副 词:  
-perfunctorily
-30@anti-graft@
-31@cracks down@
-32@Paralympic@
-33@satisfactory@adj. 令人满意的, 符合要求的
-
-副 词:  
-satisfactorily
-34@delegation@n. 代表团
-35@pharmaceutical@adj. 制药的;配药的
-36@guerrilla@n. 游击队员
-37@gorilla@n. 大猩猩
-38@trophy@- n. 奖品；战利品；纪念品
-- vt. 用战利品装饰
-- adj. 显示身份的；有威望的
-39@tropical@adj. 热带的；酷热的；热情的
-40@sci-fi@n. science fiction 科幻小说
-41@dialogue@- n. 对话；意见交换
-- vi. 对话
-- vt. 用对话表达
-
+voluntariness
+48@voluntary acitivey@
+49@walrus@n. 海象
+50@wonder@- vt. & vi. 对…感到疑惑
+- 想知道；问自己
+- n. 惊奇，惊叹，惊异，惊诧
+- 奇人，奇才
+- 奇观，奇景，奇迹，奇事
 
 时 态:  
-dialogued, dialoged 
-dialoguing, dialoging 
-dialogues, dialogs
-42@premiere@n. (戏剧、电影等)首次公演
+wondered，wondering，wonders
+51@worsen@vt. & vi. (使)变得更坏,(使)恶化
 
 时 态:  
-premiered, premièred 
-premiering, premièring 
-premieres, premières
-43@leading actor@
-44@trailer@- n. 预告片；拖车；追踪者
-- vi. 乘拖车式活动房屋旅行
-- vt. 用拖车载运
+worsened, worsening, worsens
+52@yolo@
+53@保管人@bǎo guǎn rén 
+ custodian, custos, depositary, keeper, trustee
+54@不得已之为@
+55@不得已之位@
+56@长跑@zhǎng pǎo 
+ long-distance running
+57@达到最高点@dá dào zuì gāo diǎn 
+ come to a head
+58@胆小的@dǎn xiǎo de 
+ cowardly, craven, pavid, recreant, scary, timid, tremulous
+59@电影排片@
+60@恶化@è huà 
+ 
 
+- worsen
+- deteriorate
+- take a turn for the worse
+- exacerbate
+61@富有深意的@
+62@富有想象力的@
+63@富有哲学的@
+64@感染者@
+65@高质量发展@
+66@海象@hǎi xiàng 
+ elephant seal, sea elephant, sea ox, sea-ox, walrus
+67@经济繁荣@
+68@面罩防护服@
+69@你认为你是个好人吗@
+70@你认为他们谁更厉害@
+71@你认为新时代是从什么时候开始的呢@
+72@你认为这两者的异同点是什么@
+73@你怎么看待@
+74@排片@
+75@前夕@qián xī 
+ eve
+76@上任@shàng rèn 
+ take a post
+77@收入分配@
+78@收入分配差距加大@
+79@停留时间@
+80@文章的主旨@
+81@问答@wèn dá 
+ 
+questions and answers
+82@我看了一部电视剧@
+83@我看了一部剧集@
+84@我主要做的事情是联系物资供应@
+85@我主要做的事情是宣传@
+86@一国两制@
+87@一句话@yī jù huà 
+ in a word
+88@一眨眼间@
+89@以我来看@
+90@有悖初心@
+91@院线排片安排@
+92@在我的研究领域@
+93@在这样的观念下@
+94@暂时的@zàn shí de 
+ 
 
-时 态:  
-trailered, trailering, trailers 
-
-形容词:  
-trailerable
-45@supporting actor@
-46@blockbuster@n. 重磅炸弹, 了不起的人或事
-47@provoking@- adj. 令人生气的；使人恼火的
-- 刺激的
-48@lukewarm@- adj. (液体)微温的
-- 不热心的;冷淡的
-49@vanguard@- n. 尖兵;先头部队；先导
-- 先锋;前驱
-
-名 词:  
-vanguardism
-50@prompts@n. 提示；提示性语言（prompt的复数形式）
-51@chunks@n. 大块，矮胖的人或物（chunk的复数形式）
-52@attendant@- n. 服务人员, 侍者, 随从
-- 伴随物
-- adj. 伴随的, 随之而产生的
-- 护理的
-53@workshop@n. 工场；车间；讲习班；研讨会
-
-Workshop玉夫星座
-54@symposium@n. 讨论会, 专题报告
-55@attendee@n. 出席者；在场者
-56@mingle@- vt. & vi. 混合, 混入
-- vi. 混进, 与…交往[联系]
-
-时 态:  
-mingled, mingling, mingles 
-
-名 词:  
-mingler
-57@facilitators@服务性企业
-58@compelling@- adj. 引人入胜的;扣人心弦的
-- 非常强烈的;不可抗拒的
-- 令人信服的，有说服力的
-59@engage in@从事，参加
-60@outreach@- vt. 超越，伸出；超出…的范围
-- vi. 拓广，延伸
-- n. 扩大服务范围；延伸，拓广
-- adj. 扩大服务的
-
-
-时 态:  
-outreached, outreaching, outreaches
-61@doable@adj. 可做的
-62@evocative@adj. 引起…记忆的, 唤起…感情的
-63@thesaurus@- n. 同义词词典, 类属词典
-- 百科全书;汇编,文选
-- 宝库,仓库
-64@criteria@n. 标准，条件（criterion的复数）
-65@rubric@- n. (用红字印刷的)题目(或句子等);(文章章节的)标题
-- 注释;按语
-- 写在礼拜规程里的礼仪指示
-- 习俗;成规
-- adj. 印为红字的
-
-形容词:  
-rubrical
-66@rhetoric@- n. 修辞，修辞学；华丽的词藻
-- adj. 花言巧语的
-67@consonant@- n. 辅音, 子音
-- 辅音字母
-- adj. 一致的, 符合的, 协调的
-- 协和音的, 和音的
-68@vowel@- n. 元音；母音
-- adj. 元音的
-69@reciprocal@adj. 互相给予的; 互惠的; 相互的
-
-副 词:  
-reciprocally
-70@viciously@adv. 邪恶地,敌意地
-71@literal@adj. 逐字的；无夸张的；文字的
-
-
-名 词:  
-literalness
-72@intuitive@adj. 有直觉力的;凭直觉获知的
-
-副 词:  
-intuitively
-73@intense@adj. 强烈的；紧张的；热情的；非常的
-
-
-比较级:  
-intenser, intensest 
-
-副 词:  
-intensely
-74@territory@- n. 领土, 版图
-- 管区, 营业地区
-- 地盘, 领域, 范围
-75@pronunciation@- n. (一种语言的)发音(法)
-- (某个单词的)读法
-- (一个人的)发音, 发音方式
-76@heritage@- n. 遗产, 继承物
-- 传统
-77@adverse@adj. 不利的；相反的；敌对的（名词adverseness，副词adversely）
-
-
-副 词:  
-adversely
-
-名 词:  
-adverseness
-78@fracture@- n. 破裂，断裂；骨折
-- vi. 破裂；折断
-- vt. 使破裂
-
-
-时 态:  
-fractured, fracturing, fractures
-79@besiege@vt. 包围; 围困; 围攻
-
-时 态:  
-besieged, besieging, besieges 
-
-名 词:  
-besieger
-80@ardently@adv. 热烈地；热心地
-81@harmonious@- adj. 和谐的,和睦的;协调的,调和的
-- 音调优美的;悦耳的
-
-副 词:  
-harmoniously
-82@tough@- adj. 坚韧的
-- 坚强的
-- 粗暴的
-- 老的, 硬的
-- 严格的, 强硬的
-- 困难的
-
-比较级:  
-tougher, toughest 
-
-副 词:  
-toughly
-
-名 词:  
-toughness
-83@advocate@- vt. 提倡，主张，拥护
-- n. 提倡者；支持者；律师
-
-
-时 态:  
-advocated, advocating, advocates 
-
-名 词:  
-advocator
-
-形容词:  
-advocatory
-84@mutual@- adj. 相互的, 彼此的
-- 共同的, 共有的
-
-名 词:  
-mutuality
-
-副 词:  
-mutually
-85@equipped@装备的
-86@cease@vt. & vi. 停止, 终止, 结束
-
-时 态:  
-ceased, ceasing, ceases
+- temporary
+- transient
+- transitory
+- provisional
+- impermanent
+95@值得注意的是@
+96@志愿活动@
+97@中苏关系@
+98@重拾@
+99@主题@zhǔ tí 
+ motif, motive, mythos, subject, subject matter, text, theme, topic
+100@子领域@

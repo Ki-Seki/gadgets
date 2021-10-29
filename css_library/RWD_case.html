@@ -16,6 +16,8 @@
         2. 所有列应当向左浮动，并给予适当内边距
         3. html 中所有 `.col-` 元素，即响应元素都应该被包含在 `.row` 中
         4. 清除浮动
+    3. 页面美化
+    4. 使用媒体查询（实践中，常优先考虑移动端，把 2. 内容放入媒体查询中）
  -->
 
 
@@ -33,6 +35,7 @@
         }
 
         /* 2.1. 为每一列定义样式 */
+        /* 针对平板 */
         .col-1 {width: 8.33%;}
         .col-2 {width: 16.66%;}
         .col-3 {width: 25%;}
@@ -50,7 +53,6 @@
         [class*="col-"] {
             float: left;
             padding: 15px;
-            border: 1px solid red;  /* 为了便于观察 */
         }
 
         /* 2.3. 清除浮动 */
@@ -58,6 +60,63 @@
             content: "";
             clear: both;
             display: table;
+        }
+
+        /* 3. 页面美化 */
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+        .header {
+            background-color: #9933cc;
+            color: #ffffff;
+            padding: 15px;;
+        }
+        ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul.menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #33b5e5;
+            color: #ffffff;
+            box-shadow:  0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+        .aside {
+            background-color: #33b5e5;
+            color: #ffffff;
+            padding: 15px;
+            box-shadow:  0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+        .footer {
+            background-color: #0099cc;
+            padding: 5px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        /* 4. 媒体查询 */
+        @media only screen and (max-width: 600px) {
+            /* 针对手机 */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 768px) {
+            /* 针对桌面 */
+            .col-b-1 {width: 8.33%;}
+            .col-b-2 {width: 16.66%;}
+            .col-b-3 {width: 25%;}
+            .col-b-4 {width: 33.33%;}
+            .col-b-5 {width: 41.66%;}
+            .col-b-6 {width: 50%;}
+            .col-b-7 {width: 58.33%;}
+            .col-b-8 {width: 66.66%;}
+            .col-b-9 {width: 75%;}
+            .col-b-10 {width: 83.33%;}
+            .col-b-11 {width: 91.66%;}
+            .col-b-12 {width: 100%;}
         }
     </style>
 </head>
@@ -68,16 +127,37 @@
 
     <div class="content row">
 
-        <div class="left-content col-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laborum aliquid accusantium expedita in labore maxime ullam sit dolor ex!
+
+        <div class="col-3 col-b-2">
+            <ul class="menu">
+                <li>Choice1</li>
+                <li>Choice2</li>
+                <li>Choice3</li>
+                <li>Choice4</li>
+            </ul>
         </div>
 
-        <div class="middle-content col-6">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, vitae. Id magnam vero sequi commodi. Iste error excepturi nobis eum cumque optio repellendus ab earum ea a ratione quaerat, neque voluptas! Alias velit inventore soluta accusamus saepe corporis dolorum, repellat explicabo doloremque modi eaque facere!
+        <div class="col-9 col-b-7 article">
+            <div class="article">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestias molestiae laborum sit sequi itaque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reiciendis rem, eaque laborum illo corrupti dolores possimus qui molestias nisi, eos, voluptates quisquam veritatis quod tempore dicta deleniti obcaecati ut officia veniam inventore officiis dolorem odit enim? Exercitationem recusandae, omnis illo quis quam blanditiis, repudiandae sapiente dignissimos quia perferendis aperiam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo odio aliquid dicta tempore ab autem iure cum sit provident?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloremque animi repellat repudiandae ipsa dolores autem eligendi asperiores. Ut ipsam sit dignissimos impedit inventore obcaecati, dolores perferendis nemo cum animi quae voluptatibus molestiae repudiandae eaque! Consequuntur, unde labore aliquid doloremque commodi illum esse animi omnis eum, suscipit praesentium reiciendis velit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas praesentium iure odio quaerat veritatis fugit.</p>    
+            </div>
         </div>
 
-        <div class="right-content col-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor ea minus odit nemo et ipsa, nobis, illo deleniti doloremque facere esse non magnam eveniet molestiae tempora quibusdam ipsam totam necessitatibus! Aliquam reiciendis inventore optio?
+        <div class="col-12 col-b-3">
+            <div class="aside">
+                <h2>Topic1</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat possimus quia animi quae officiis?</p>
+                <h2>Topic2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rem vel quo quidem culpa voluptates perspiciatis beatae dolorem.</p>
+                <h2>Topic3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo deserunt nihil obcaecati?</p>
+    
+            </div>
         </div>
 
     </div>

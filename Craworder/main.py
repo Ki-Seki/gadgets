@@ -9,6 +9,7 @@
 2021/08/26 - 重构 xlsx 文件生成函数
 """
 
+
 from Craworder import Craworder
 
 
@@ -19,11 +20,7 @@ if input_code == '1':
     crd = Craworder()
 elif input_code == '2':
     filename = input("Input the filename (nothing for e.txt): ")
-    if filename == '':
-        crd = Craworder('e.txt')
-    else:
-        crd = Craworder(filename)
-
+    crd = Craworder('e.txt') if filename == '' else Craworder(filename)
 print("Crawling...")
 crd.crawl_words()
 
@@ -42,7 +39,8 @@ if filename:
         crd.save_words_to_xlsx(filename)
 else:
     import datetime
-    filename = datetime.date.isoformat(datetime.date.today())
+    date = datetime.date.isoformat(datetime.date.today())
+    filename = f"Vocabulary({date}).xlsx"
     crd.save_words_to_xlsx(filename)
 print("File saved.")
 

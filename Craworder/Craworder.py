@@ -116,7 +116,11 @@ class Craworder:
             for word, sdmk, trans in self.words:
                 print(word, sdmk, trans, sep=',', file=f)
 
-    def save_words_to_xlsx(self, filename='vocabulary.xlsx'):
+    def save_words_to_xlsx(self, filename='vocabulary.xlsx', rmblank=True):
+        """
+        save words to xlsx file;
+        If rmblank is True, it will remove words with translation being blank
+        """
         # If file already exists, delete it.
         import os
         if os.path.exists(filename):
@@ -156,11 +160,12 @@ class Craworder:
         col = 0
 
         for word, sdmk, trans in self.words:
-            worksheet.write(row, col, row, id_format)
-            worksheet.write(row, col + 1, word, data_format)
-            worksheet.write(row, col + 2, sdmk, data_format)
-            worksheet.write(row, col + 3, trans, data_format)
-            row += 1
+            if trans != '' or rmblank == False:
+                worksheet.write(row, col, row, id_format)
+                worksheet.write(row, col + 1, word, data_format)
+                worksheet.write(row, col + 2, sdmk, data_format)
+                worksheet.write(row, col + 3, trans, data_format)
+                row += 1
 
         # Set header and footer
         worksheet.set_header('&CCreated at &D &T')
@@ -168,14 +173,5 @@ class Craworder:
 
         workbook.close()
 
-        def __repr__(self):
-            string = ''
-            for item in self.words:
-                string += f'{item[0]}, {item[1]}, {item[2]}\n'
-            return string
-
     def __repr__(self):
-        string = ''
-        for item in self.words:
-            string += f'{item[0]}, {item[1]}, {item[2]}\n'
-        return string
+        return ''.join(f'{item[0]}, {item[1]}, {item[2]}\n' for item in self.words)
