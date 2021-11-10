@@ -1,267 +1,176 @@
-﻿1@0.437@
-2@alibaba group@
-3@arrangement@- n. 安排; 解决办法
-- 约定; 协议
-- 布置好的东西
-- 改编曲
-4@best-seller@n. 畅销书；畅销唱片
-5@bold@- adj. 勇敢的, 无畏的
-- 冒失的, 鲁莽的
-- 明显的, 醒目的
-- 粗体的, 黑体的
-
-比较级:  
-bolder, boldest 
+﻿1@academician@n. 学会会员,院士,大学生,学者
+2@akin@adj. 同族的；同类的；类似的
+3@antecedent@- n. 发生在前的事，先例
+- (关系代词的)先行词
+- (比例)前项
+- 前件
+- 经历；学历
+- 祖先
+- 前身
+- adj. 在前的，在先的，先行的
 
 副 词:  
-boldly
-
-名 词:  
-boldness
-6@boom@- vt. 发隆隆声；使兴旺
-- vi. 发隆隆声；急速发展
-- n. 繁荣；隆隆声；吊杆
+antecedently
+4@anticipated@预先的;预期的
+5@association rule mining@
+6@authentification@n. 证实 认可
+7@authorization@- n. 授权,批准
+- 批准(或授权)的证书
+8@Bayesian@adj. 贝叶斯定理的
+9@brick-and-mortar@实体的，具体的
+10@conceivably@adv. 令人信服地
+11@confidence level@
+12@connote@vt. 意味着；含言外之意
 
 
 时 态:  
-boomed, booming, booms
-7@Chinese episode@
-8@Chinese series@
-9@clamped down@
-10@complete@- adj. 完整的, 完全的
-- 完成的, 结束的
-- 完满的, 圆满的
-- 彻底的, 完完全全的
-- vt. 完成, 结束
-- 使完善
+connoted, connoting, connotes
+13@curry@- n. 咖喱食品
+- vt. 用咖喱粉烹调(食物)
+- 梳刷(马匹)
+- 讨好； 奉承； 拍某人的马屁
+Curry柯里(姓氏)
 
-比较级:  
-completer, completest 
+时 态:  
+curried, currying, curries
+14@empirically@adv. 以经验为主地
+15@encapsulate@- vt. 装入胶囊
+- 总结；扼要概括；囊括
+- adj. 有(胶)囊包着的
+
+时 态:  
+encapsulated，encapsulating，encapsulates 
+
+名 词:  
+encapsulation
+16@errand@n. 差事；差使；使命
+17@grocery@- n. 杂货业
+- 杂货店
+18@household@- n. 同住在一所房子里的人, 一家人, 户
+- adj. 家庭的, 家用的
+19@impose@- vi. 欺骗；利用；施加影响
+- vt. 强加；以…欺骗；征税
+
+
+时 态:  
+imposed, imposing, imposes 
+
+名 词:  
+imposer
+20@induce@vt. 引诱；[电]感应；[医]诱导；引起
+
+
+时 态:  
+induced, inducing, induces 
+
+形容词:  
+inducible
+21@joint probability@
+22@latent@adj. 潜在的；潜伏的；隐藏的
+23@leverage@- n. 〈物〉杠杆作用, 杠杆的力量
+- 力量, 影响
+- vt. 促使…改变
+
+时 态:  
+leveraged, leveraging, leverages
+24@literature@- n. 文学, 文学作品
+- 文献, 图书资料
+25@Logistic regression loss@
+26@matrix factorization@
+27@notion@n. 概念；见解；打算
+28@posterior@- adj.  (时间上)较晚的,在后的,(次序上)其次的
+- 后面的,尾部的
+- n. 身体后部,臀部
+
+副 词:  
+posteriorly
+29@postulate@- vt. 假定，假设
+- n. 假定；假设
+
+时 态:  
+postulated，postulating，postulates 
+
+名 词:  
+postulation
+30@premise@- vt. 引出，预先提出；作为…的前提
+- n. 前提；上述各项；房屋连地基
+- vi. 作出前提
+
+
+时 态:  
+premised, premising, premises
+31@proceedings@n. 事件，活动@n. 诉讼，议程@名词proceeding的复数形式
+32@proportional@adj. 比例的, 成比例的
+
+名 词:  
+proportionality
+
+副 词:  
+proportionally
+33@quarantine@- n. (人或动物生病之后被隔离的)检疫期
+- vt. 对…进行检疫隔离
+
+时 态:  
+quarantined, quarantining, quarantines 
+
+形容词:  
+quarantinable
+34@ramp@- n. 斜坡，坡道；敲诈
+- vi. 蔓延；狂跳乱撞；敲诈
+- vt. 敲诈；使有斜面
+
+
+时 态:  
+ramped, ramping, ramps 
+
+名 词:  
+ramp
+35@recurrent@adj. 经常发生的;周期性的
+36@redundant@- adj. 因人员过剩而被解雇的
+- 不需要的; 多余的
+
+副 词:  
+redundantly
+37@retain@vt. 保持；雇；记住
+
+
+时 态:  
+retained, retaining, retains 
 缩 写:  
-comp, cpl
+ret
+
+形容词:  
+retainable
+38@RFID@abbr. 无线射频识别（radio frequency identification devices）
+39@Spam@兜售信息(邮件，广告，新闻，文章)，非索要信息
+
+时 态:  
+spammed, spamming, spams
+40@spammers@n. 垃圾邮件制作者（spammer的复数）
+41@stochastic gradient descent@
+42@stop words@
+43@subsume@vt. 把……归入；把……包括在内
+
+
+时 态:  
+subsumed, subsuming, subsumes
+44@such that@
+45@sufficient@adj. 足够的; 充足的
 
 副 词:  
-completely
+sufficiently
+46@underlying@- adj. 根本的, 基础的
+- 含蓄的, 潜在的
+47@vault@- n. （尤指银行的）金库，保险库；拱顶；地下室；撑竿跳
+- vi. 跳跃；成穹状弯曲
+- vt. 做成圆拱形；撑竿跳过
+
+
+时 态:  
+vaulted, vaulting, vaults 
 
 名 词:  
-completeness
-
-形容词:  
-completive...
-11@conference@- n. 会议
-- 讨论, 商谈
-
-形容词:  
-conferential
-12@csrf@
-13@diagram@- n. 图表；图解
-- vt. 用图解法表示
-
-
-时 态:  
-diagrammed, diagramed 
-diagramming, diagraming 
-diagrams, diagrams  
-
-形容词:  
-diagrammatic
-14@ecnomy boom@
-15@enables me@
-16@eve@- n. (宗教节日或假日的)前日, 前夕
-- (重大事件发生的)前一刻
-Even. 夏娃(基督教《圣经》故事人物)
-17@get back on track@
-18@goggles@n. 护目镜
-19@ideal@- adj. 理想的；完美的；想象的；不切实际的
-- n. 理想；典范
-20@ideology@n. 意识形态；思想意识；观念学
-
-
-名 词:  
-ideologist
-21@I'm yolo@
-22@imaginative@adj. 富于想像力的; 运用想像力的
-
-副 词:  
-imaginatively
-23@impromptu@- adj. & adv. 事先无准备(的), 临时(的)
-- n. 即兴曲
-24@IMT@abbr. 国际移动通信（International Mobile Telecommunications）；智能多模式终端（Intelligent Multimode Terminal）
-25@inheitance@
-26@inner peace@
-27@it is only with heart@
-28@lasting-time@
-29@lastingtime@
-30@manipulate@vt. 熟练控制[操作]
-
-时 态:  
-manipulated, manipulating, manipulates 
-
-形容词:  
-manipulative
-
-名 词:  
-manipulator
-
-形容词:  
-manipulatory
-31@PCL@abbr. 打印机控制语言（Printer Control Language）
-32@prep@- n. 家庭作业(=preparation)
-- vi. 进预备学校
-- 做家庭作业
-- vt. 使(某人)做好进行手术〔考试〕的准备
-- adj. 预备的
-PREPabbr. Product Reliability Evaluation Program 产品可靠性鉴定计划
-
-时 态:  
-prepped, prepping, preps...
-33@refactored@
-34@remark@- n. 话语，评论
-- 注意；看；观察
-- vt. & vi. 谈论，评论
-- vt. 注意到…
-
-时 态:  
-remarked，remarking，remarks
-35@render@- vt. 报答；归还；给予
-- 呈递；提供；开出
-- 演出；扮演；演奏
-- 翻译
-- 使；致使
-
-时 态:  
-rendered，rendering，renders 
-
-名 词:  
-renderer
-36@revised@改进的
-37@screens@整流网
-38@series@n. 系列，连续；丛书；[电]串联；[数]级数
-39@session@n. 会议；（法庭的）开庭；（议会等的）开会；学期；讲习会
-
-
-形容词:  
-sessional
-40@Sino@
-41@slug@- n. 鼻涕虫；动作缓慢的人；金属小块
-- vi. 偷懒；动作迟缓
-- vt. 重击
-
-
-时 态:  
-slugged, slugging, slugs  
-
-
-
-时 态:  
-slugged, slugging, slugs
-42@timid@- adj. 胆小的
-- 羞怯的
-
-比较级:  
-timider, timidest 
-
-副 词:  
-timidly
-43@unbalanced@- adj. 不平衡的;不稳定的;不均衡的
-- 精神错乱的
-- 未决算的;未精算的;收支不平衡的
-44@unbanlanced@
-45@virtue@- n. 美德, 德行
-- 优点, 长处
-46@virtue for the poor@
-47@voluntary@- adj. 自愿的, 志愿的
-- 义务的, 无偿的
-
-副 词:  
-voluntarily
-
-名 词:  
-voluntariness
-48@voluntary acitivey@
-49@walrus@n. 海象
-50@wonder@- vt. & vi. 对…感到疑惑
-- 想知道；问自己
-- n. 惊奇，惊叹，惊异，惊诧
-- 奇人，奇才
-- 奇观，奇景，奇迹，奇事
-
-时 态:  
-wondered，wondering，wonders
-51@worsen@vt. & vi. (使)变得更坏,(使)恶化
-
-时 态:  
-worsened, worsening, worsens
-52@yolo@
-53@保管人@bǎo guǎn rén 
- custodian, custos, depositary, keeper, trustee
-54@不得已之为@
-55@不得已之位@
-56@长跑@zhǎng pǎo 
- long-distance running
-57@达到最高点@dá dào zuì gāo diǎn 
- come to a head
-58@胆小的@dǎn xiǎo de 
- cowardly, craven, pavid, recreant, scary, timid, tremulous
-59@电影排片@
-60@恶化@è huà 
- 
-
-- worsen
-- deteriorate
-- take a turn for the worse
-- exacerbate
-61@富有深意的@
-62@富有想象力的@
-63@富有哲学的@
-64@感染者@
-65@高质量发展@
-66@海象@hǎi xiàng 
- elephant seal, sea elephant, sea ox, sea-ox, walrus
-67@经济繁荣@
-68@面罩防护服@
-69@你认为你是个好人吗@
-70@你认为他们谁更厉害@
-71@你认为新时代是从什么时候开始的呢@
-72@你认为这两者的异同点是什么@
-73@你怎么看待@
-74@排片@
-75@前夕@qián xī 
- eve
-76@上任@shàng rèn 
- take a post
-77@收入分配@
-78@收入分配差距加大@
-79@停留时间@
-80@文章的主旨@
-81@问答@wèn dá 
- 
-questions and answers
-82@我看了一部电视剧@
-83@我看了一部剧集@
-84@我主要做的事情是联系物资供应@
-85@我主要做的事情是宣传@
-86@一国两制@
-87@一句话@yī jù huà 
- in a word
-88@一眨眼间@
-89@以我来看@
-90@有悖初心@
-91@院线排片安排@
-92@在我的研究领域@
-93@在这样的观念下@
-94@暂时的@zàn shí de 
- 
-
-- temporary
-- transient
-- transitory
-- provisional
-- impermanent
-95@值得注意的是@
-96@志愿活动@
-97@中苏关系@
-98@重拾@
-99@主题@zhǔ tí 
- motif, motive, mythos, subject, subject matter, text, theme, topic
-100@子领域@
+vaulter...
+48@vis-a-vis@- n. 面对面的人；相对着；两人对座的长椅
+- prep. 关于；和…面对面；同…相比
+- adv. 相向着；相对着
