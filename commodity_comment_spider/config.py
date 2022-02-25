@@ -5,7 +5,13 @@ commodity_links = [
 ]
 
 # Maximum comment count you want to get from each commodity.
-comment_cnt = 10
+# Please set to a multiple of 10.
+# Set to -1 to get all comments.
+max_comments = 30
 
-# File name of the parsed data.
-filename = 'data.excel'
+# Name of the Excel file that stores the data.
+filename = 'data.xlsx'
+
+# User Agent
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 ' \
+             'Safari/537.36 Edg/98.0.1108.56 '
