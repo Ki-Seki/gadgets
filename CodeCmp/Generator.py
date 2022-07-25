@@ -1,34 +1,12 @@
-import random
 
-data = ['''2
-5 6
-abcde
-a b 3
-a c 2
-b d 5
-c d 7
-c e 4
-d e 6
-4 5
-abcd
-a b 2
-a c 3
-a d 4
-b d 1
-c d 3
+
+data = [
+        '''24 6 8 3 12 7 9 7
+        5003 5 566 2003 300 2032 5600
 ''',
-        '''1
-5 6
-abcde
-a b 3
-a c 2
-b d 5
-c d 6
-c e 4
-d e 6
+        '''55 7 15 35 15 31 5 6 5
 ''']
 
 
 def test_case_generator():
-    for i in data:
-        yield i
+    yield from data

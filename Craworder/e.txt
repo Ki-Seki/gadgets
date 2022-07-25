@@ -1,121 +1,86 @@
-﻿1@academia@n. 学术界；学术生涯
-2@ad hoc@
-3@aggregate@- n. 〈正〉数, 总计
-- vt. 总计达…
-- vt. & vi. (使)聚集
+﻿1@semaphore@- n. 臂板信号系统；(铁道)臂板信号装置
+- vt. & vi. 发出信号，打旗语
 
 时 态:  
-aggregated, aggregating, aggregates  
-
-副 词:  
-aggregately
-
-名 词:  
-aggregation
+semaphored，semaphoring，semaphores 
 
 形容词:  
-aggregative
-
-名 词:  
-aggregator...
-4@agility@n. 敏捷；灵活；机敏
-5@alliance@- n. 结盟，联盟
-- 同盟国；结盟的社会
-6@artifact@n. 人工制品;手工艺品;加工品
-7@benchmark@基准
-
-时 态:  
-benchmarked, benchmarking, benchmarks
-8@censorship@n. 审查员的职权;审查(制度)
-9@chamber@- n. （身体或器官内的）室，膛；房间；会所
-- adj. 室内的；私人的，秘密的
-- vt. 把…关在室内；装填（弹药等）
-
-
-时 态:  
-chambered, chambering, chambers
-10@cocoon@- n. 茧；卵囊
-- vt. 把……紧紧包住
-
-
-时 态:  
-cocooned, cocooning, cocoons
-11@colony@n. 殖民地；移民队
-12@distributor@- n. 批发公司;批发商
-- (汽车上的)配电器
-
-名 词:  
-distributorship
-13@economize@vi. 节省；减少开支
-
-时 态:  
-economized，economizing，economizes 
-
-名 词:  
-economizer
-14@empirical@adj. 以观察或实验为依据的
+semaphoric
+2@mutex@n. 互斥量；互斥；互斥元，互斥体
+3@octave@- n. 八度音阶；八行诗；十四行诗的前八行；八个一组的事物
+- adj. 八个一组的；高八度音的
+4@malignant@- adj. 恶毒的，极想伤害他人的
+- (疾病)恶性的；极危险的；致命的
 
 副 词:  
-empirically
-15@empirical analysis@
-16@generic@adj. 一般的；属的；类的；非商标的
-
+malignantly
+5@convex@adj. 凸的, 凸面的
 
 副 词:  
-generically
-17@inbound@- adj. 归本国的；回内地的；入境的
-- n. 入站
+convexly
+6@prominence@- n. 声望，杰出
+- 突出；重要；要事
+7@prescribed@adj. 规定的，法定的
+8@beneficiary@- n. 受益者；受惠者
+- 受俸牧师，受俸神职人员
+- adj. 受圣俸的
+- 拥有封地的
 
+形容词:  
+beneficiary
+9@aforementioned@adj. 前面提到的,上述的
+10@negligible@adj. 可忽略的, 无足轻重的
+
+副 词:  
+negligibly
+11@embedding@埋入,埋藏
+12@baseline@n. 基线；[体]底线
+13@shuffle@vi. 拖着脚走；把脚动来动去；坐立不安；洗牌；把……变换位置；调动；搪塞
+n. 洗牌；拖着脚走，曳行；曳步舞，曳步动作；改组；慢切分节奏；随机播放装置
 
 时 态:  
-inbounded, inbounding, inbounds
-18@it can be argued@
-19@like-minded@adj. 具有相似意向或目的的
-20@memorandum@- n. (备忘的)记录
-- 非正式商业书信,便函
+shuffled, shuffling, shuffles...
+14@perceptron@n. 感知器(模拟人类视神经控制系统的图形识别机)
+15@somatosensory@adj. (耳、目、口等以外的)体觉的
+16@cortex@- n. (脑或其他器官的)皮层
+- 植物的表皮
+17@nucleus@n. 核，核心；原子核
+
 
 复 数: 
-memoranda
-21@multiplier@n. 乘数
-22@outbound@adj. 开往外地的,开往外国的
-23@outperform@vt. 做得比…更好；胜过
+nuclei
+18@sanity@- n. 神志正常；心智健康
+- 明智，稳健，理智
+19@harness@- n. 马具, 挽具
+- vt. 给(马等)装上挽具
+- 治理, 利用
 
 时 态:  
-outperformed，outperforming，outperforms
-24@pheromone@n. 信息素
-25@procurement@n. 获得;采购
-26@referral@n. 转交; 呈交; 提供
-27@rivalry@n. 竞争；竞赛；对抗
-28@singular value decomposition@
-29@Stigmergy@
-30@theoretical@- adj. 理论的
-- 推想的, 假设的
-
-副 词:  
-theoretically
-31@transitive@- adj. (指动词)及物的
-- 过渡的；转变的
-- 可递的，可迁的
-- n. 及物动词
-
-副 词:  
-transitively
-32@unemployment@- n. 失业
-- 失业(人数), 失业率
-33@utilise@vt. 利用；使用（等于utilize）
-34@vicious@- adj. 恶的, 邪恶的
-- 残酷的, 狠毒的
-
-副 词:  
-viciously
+harnessed, harnessing, harnesses
+20@ground truth@
+21@epoch@n. 纪元, 时期, 时代
+22@composite@adj. 混合成的, 综合成的
 
 名 词:  
-viciousness
-35@virtuous@adj. 有道德的；贞洁的；善良的；有效力的；正直的
+compositeness
+23@rectify@vt. 改正；[电]整流；[化]精馏
 
 
-副 词:  
-virtuously
+时 态:  
+rectified, rectifying, rectifies 
+
+形容词:  
+rectifiable
 
 名 词:  
-virtuousness
+rectification
+24@remediation@n. 补习,辅导,补救,纠正
+25@exclamation@n. 呼喊, 惊叫
+26@fiesta@n. 圣日，宗教节日；假日；祭典
+27@anneal@- vt. 使退火，韧炼；锻炼
+- n. 退火；锻炼，磨练
+
+
+时 态:  
+annealed, annealing, anneals
+28@caravan@n. 旅行队；大篷车
