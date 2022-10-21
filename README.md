@@ -4,20 +4,38 @@
 
 ## 原创作品
 
+### 爬虫
+
+|文件（夹）|项目说明|
+|---|---|
+|commodity_comment_spider|电商平台商品评论通用爬虫|
+|minkch_spider|minkch.com 的爬虫|
+|wangdao_spider|王道学员就业数据爬虫及爬取结果|
+|zhihu_spider|知乎爬虫|
+
+### 学习辅助
+
 |文件（夹）|项目说明|
 |---|---|
 |CodeCmp|做算法竞赛题时使用。根据输入用例，比较两个 C++ 代码的性能，输出差异|
-|commodity_comment_spider|电商平台商品评论爬虫|
 |Craworder|根据给出的条目，自动爬取有道词典的单词，注音及释义；将其保存为可打印的表格|
 |css_library|CSS 学习过程中保存的代码片段|
+
+### 脚本
+
+|文件（夹）|项目说明|
+|---|---|
 |lib_auto_reserve|用于lib.huel.edu.cn研讨间的自动预定|
-|minkch_spider|minkch.com 的爬虫|
+|xuexitong_auto_comment|学习通自动评论器，刷网课时必备|
+|Day-off Generator.user.js|油猴脚本。用于 http://49.122.0.29:8002/xgxt/qjsqbase.do 的假条自动生成。配合 Kiwi Browser，出入自由~|
+
+### 其他
+
+|文件（夹）|项目说明|
+|---|---|
 |philosophy-in-using-mobiles|手机使用哲学|
 |vscode_c_cpp_config|VSCode C/C++ 编译环境配置文件|
-|wangdao_spider|王道学员就业数据爬虫及爬取结果|
-|xuexitong_auto_comment|学习通自动评论器，刷网课时必备|
-|zhihu_spider|知乎爬虫|
-|Day-off Generator.user.js|油猴脚本。用于 http://49.122.0.29:8002/xgxt/qjsqbase.do 的假条自动生成。配合 Kiwi Browser，出入自由~|
+|zhel_data_tagging|中南财经政法大学经济学课题组的一个数据标注任务的自动化工具|
 
 > 所有原创作品遵循 [MIT](./LICENSE) 协议
 

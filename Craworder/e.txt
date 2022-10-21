@@ -1,86 +1,58 @@
-﻿1@semaphore@- n. 臂板信号系统；(铁道)臂板信号装置
-- vt. & vi. 发出信号，打旗语
-
-时 态:  
-semaphored，semaphoring，semaphores 
-
-形容词:  
-semaphoric
-2@mutex@n. 互斥量；互斥；互斥元，互斥体
-3@octave@- n. 八度音阶；八行诗；十四行诗的前八行；八个一组的事物
-- adj. 八个一组的；高八度音的
-4@malignant@- adj. 恶毒的，极想伤害他人的
-- (疾病)恶性的；极危险的；致命的
-
-副 词:  
-malignantly
-5@convex@adj. 凸的, 凸面的
-
-副 词:  
-convexly
-6@prominence@- n. 声望，杰出
-- 突出；重要；要事
-7@prescribed@adj. 规定的，法定的
-8@beneficiary@- n. 受益者；受惠者
-- 受俸牧师，受俸神职人员
-- adj. 受圣俸的
-- 拥有封地的
-
-形容词:  
-beneficiary
-9@aforementioned@adj. 前面提到的,上述的
-10@negligible@adj. 可忽略的, 无足轻重的
-
-副 词:  
-negligibly
-11@embedding@埋入,埋藏
-12@baseline@n. 基线；[体]底线
-13@shuffle@vi. 拖着脚走；把脚动来动去；坐立不安；洗牌；把……变换位置；调动；搪塞
-n. 洗牌；拖着脚走，曳行；曳步舞，曳步动作；改组；慢切分节奏；随机播放装置
-
-时 态:  
-shuffled, shuffling, shuffles...
-14@perceptron@n. 感知器(模拟人类视神经控制系统的图形识别机)
-15@somatosensory@adj. (耳、目、口等以外的)体觉的
-16@cortex@- n. (脑或其他器官的)皮层
-- 植物的表皮
-17@nucleus@n. 核，核心；原子核
-
-
-复 数: 
-nuclei
-18@sanity@- n. 神志正常；心智健康
-- 明智，稳健，理智
-19@harness@- n. 马具, 挽具
-- vt. 给(马等)装上挽具
-- 治理, 利用
-
-时 态:  
-harnessed, harnessing, harnesses
-20@ground truth@
-21@epoch@n. 纪元, 时期, 时代
-22@composite@adj. 混合成的, 综合成的
-
-名 词:  
-compositeness
-23@rectify@vt. 改正；[电]整流；[化]精馏
-
-
-时 态:  
-rectified, rectifying, rectifies 
-
-形容词:  
-rectifiable
-
-名 词:  
-rectification
-24@remediation@n. 补习,辅导,补救,纠正
-25@exclamation@n. 呼喊, 惊叫
-26@fiesta@n. 圣日，宗教节日；假日；祭典
-27@anneal@- vt. 使退火，韧炼；锻炼
-- n. 退火；锻炼，磨练
-
-
-时 态:  
-annealed, annealing, anneals
-28@caravan@n. 旅行队；大篷车
+﻿1@affinity@n. 吸引力；姻亲关系；密切关系；类同
+2@aftermost@adj. 最后的,最后部的,靠船尾的
+3@afterwards@adv. 然后,后来地
+4@blob@n. 一滴；一抹；难以名状的一团 vt. 弄脏；[美俚]把…做错
+5@cay@n. 沙洲；珊瑚礁；岩礁
+6@coarse-grained@adj. 纹理粗糙的,粗鲁的,粗鄙的
+7@coherence@n. 条理性,连贯性,一致性
+8@colloquial@adj. 口语的, 会话的
+9@commuting@n.,adj. 交换(的)
+10@compact@n. 合同，契约；小粉盒 adj. 紧凑的，紧密的；简洁的
+11@compliant@adj. 遵从的,依从的,顺从的,屈从的
+12@contour@n. 轮廓；周线；等高线；电路；概要 vt. 画轮廓；画等高线
+13@contrastive@adj. 对比的
+14@decompose@vt. & vi. (使某物)变坏, 腐烂 vt. 分解(某物质、光线等)
+15@defects@n. 缺点；瑕疵；不合格品（defect的复数） v. 叛变（defect的三单形式）
+16@demote@vt. 使降职；使降级
+17@dereferencing@非关联化
+18@disentangle@v. 解开；松开；摆脱；解决（纠纷等）
+19@dispatch@n. 派遣；急件 vt. 派遣；[计算机]分派
+20@distillation@n. 蒸馏
+21@encapsulate@vt. 装入胶囊 总结;扼要概括;囊括 adj. 有(胶)囊包着的
+22@encapsulation@n. 包装,封装；包裹
+23@feasible@adj. 可行的；可能的；可实行的
+24@fine-grained@adj. 有细密纹理的
+25@Fourier@n. 傅立叶（姓氏）；傅里叶（法国空想社会主义者，社会改革家）
+26@fuse@vi. 熔化，熔融；融合 vt. 使熔化，使熔融；使融合
+27@Hadamard@
+28@hierarchy@n. 等级制度 统治集团, 领导层
+29@inadvertently@adv. 漫不经心地；疏忽地 非故意地
+30@inconsistency@n. 矛盾
+31@ingenious@adj. 灵巧的, 善于创造发明的 设计独特的, 制作精巧的
+32@inherent@adj. 固有的；内在的；与生俱来的
+33@inheritance@n. 继承物, 遗产
+34@intrinsic@adj. 固有的, 内在的, 本质的
+35@invariant@adj. 无变化的,不变的 n. 不变式,不变量
+36@invoke@vt. 援引；引起；求助；请求；乞灵于
+37@invoking@v. 祈求；援引；唤起（invoke的ing形式）
+38@Laplacian@n. 拉普拉斯算子(调和算子) adj. 拉普拉斯算子的(调和算子的)
+39@leaps and bounds@
+40@legacy@n. 遗赠，遗产
+41@locality@n. 位置；地点；所在
+42@minimalist@adj. 极简抽象艺术的; 极简派音乐的 n. 极简抽象派艺术家; 极简派音乐家
+43@nested@adj. 嵌套的，内装的 v. 筑巢；嵌入（nest的过去分词）
+44@part-whole@
+45@perturbation@n. 忧虑;不安;烦恼 摄动;微扰;小变异
+46@pillars@n. 柱子；柱状物；台柱（pillar的复数） v. 用柱支持（pillar的第三人称单数）
+47@polymorphism@n. 多型现象, 多态性
+48@preface@n. 前言；引语 vt. 为…加序言；以…开始
+49@rebuttal@n. 反驳；反证；辩驳
+50@receptive@adj. 易接受的；愿意接受的
+51@refine@vt. 精炼，提纯；使…文雅；改善
+52@renaissance@n. 文艺复兴, 文艺复兴时期
+53@sentinel@n. 哨兵 vt. 守卫，放哨
+54@spatial@adj. 空间的；存在于空间的；受空间条件限制的
+55@stipulate@vt. (尤指在协议或建议中)规定, 约定, 讲明(条件等)
+56@suboptimal@adj. 未达最佳标准的,不最理想的,不最适宜的,不最满意的
+57@superiority@n. 优越(性), 优等
+58@tedious@adj. 冗长乏味的；沉闷的
