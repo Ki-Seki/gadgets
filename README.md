@@ -9,7 +9,6 @@
 |文件（夹）|项目说明|
 |---|---|
 |commodity_comment_spider|电商平台商品评论通用爬虫|
-|minkch_spider|minkch.com 的爬虫|
 |wangdao_spider|王道学员就业数据爬虫及爬取结果|
 |zhihu_spider|知乎爬虫|
 
@@ -19,7 +18,6 @@
 |---|---|
 |CodeCmp|做算法竞赛题时使用。根据输入用例，比较两个 C++ 代码的性能，输出差异|
 |Craworder|根据给出的条目，自动爬取有道词典的单词，注音及释义；将其保存为可打印的表格|
-|css_library|CSS 学习过程中保存的代码片段|
 
 ### 脚本
 
