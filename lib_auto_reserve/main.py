@@ -39,43 +39,51 @@ def reserve(conf):
         # 登录
         driver.get(conf.url)
         # time.sleep(random.random() * 2)
-        time.sleep(1)
+        # time.sleep(1)
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'li[onclick]')))
         driver.find_element(By.CSS_SELECTOR, 'li[onclick]').click()
         # time.sleep(random.random() * 1
         time.sleep(1)
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.lg_form input[name=id]')))
         driver.find_element(By.CSS_SELECTOR, '.lg_form input[name=id]').send_keys(conf.id)
         driver.find_element(By.CSS_SELECTOR, '.lg_form input[name=pwd]').send_keys(conf.pwd)
         driver.find_element(By.CSS_SELECTOR, '.lg_form input[value=登录]').click()
         # time.sleep(random.random() * 2)
-        time.sleep(1)
+        # time.sleep(1)
 
         # 跳转到预定研讨间页面
-        # time.sleep(random.random() * 3)
-        time.sleep(1)
+        time.sleep(3)
+        # WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'ul.it_list li')))
         driver.find_elements(By.CSS_SELECTOR, 'ul.it_list li')[8].click()
         # time.sleep(random.random() * 2)
-        time.sleep(1)
+        # time.sleep(1)
+
         date_str = (datetime.date.today() + datetime.timedelta(days=conf.date_delta)).strftime('%Y-%m-%d')
         date_selector = f'td[date="{date_str}"]'
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, date_selector)))
         driver.find_element(By.CSS_SELECTOR, date_selector).click()
         # time.sleep(random.random() * 2)
-        time.sleep(1)
+        # time.sleep(1)
 
         # 拖曳选择时间
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, f'div[objname="{conf.room}"] tr td[hour="7"]')))
         src = driver.find_element(By.CSS_SELECTOR, f'div[objname="{conf.room}"] tr td[hour="7"]')
         tgt = driver.find_element(By.CSS_SELECTOR, f'div[objname="{conf.room}"] tr td[hour="8"]')
-        AC(driver).drag_and_drop(src, tgt).perform()
+        AC(driver).drag_and_drop(src, src).perform()
+        # AC(driver).drag_and_drop_by_offset(src, 100, 0)
 
         # 预定详情页
         ## 消除某些情况下的弹窗
-        driver.find_element(By.CSS_SELECTOR, '#ui-id-2').click()
+        # driver.find_element(By.CSS_SELECTOR, '#ui-id-2').click()
         # time.sleep(random.random() * 2)
-        time.sleep(1)
+        # time.sleep(1)
         ## 搜索成员并选定
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[id^="dlg_resv_panel_default"] input.mb_name_ipt')))
         driver.find_element(By.CSS_SELECTOR, 'div[id^="dlg_resv_panel_default"] input.mb_name_ipt').send_keys(
             conf.partner)
         # time.sleep(random.random() * 3)
-        time.sleep(2)
+        # time.sleep(2)
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'ul#ui-id-1 li')))
         driver.find_element(By.CSS_SELECTOR, 'ul#ui-id-1 li').click()
         ## 选择开始时间
         st_select = driver.find_elements(By.CSS_SELECTOR, '[name="start_time"]')[-1]
@@ -87,8 +95,9 @@ def reserve(conf):
         driver.find_element(By.TAG_NAME, 'textarea').send_keys(conf.desc)
         ## 提交
         driver.find_element(By.CSS_SELECTOR, 'input[value="提交"]').click()
-        time.sleep(2)
+        # time.sleep(2)
 
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'ui-id-4')))
         succeed = is_element_present(driver, By.ID, 'ui-id-4')
         driver.close()
         trial += 1
