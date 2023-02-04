@@ -38,5 +38,6 @@
 |[DPIFix](DPIFix/)|修复笔记本电脑全局缩放所产生的一些模糊问题|[DreamPiggy](https://www.zhihu.com/question/33635486/answer/58576398)|
 |[BiliBili_favourite_extractor.js](BiliBili_favourite_extractor.js)|B 站收藏夹视频链接提取，配合 you-get 使用，即可下载全部收藏夹视频|[太平洋的微笑](https://www.bilibili.com/video/av98652912/)|
 |[avatar.html](avatar.html)|输入 QQ 号，获取高清头像|未知|
+|[wsl2-proxy.bash](./wsl2-proxy.bash)|为 WSL2 一键设置代理|[simpleapples](https://zhuanlan.zhihu.com/p/153124468)|
 
 > 如有侵权，请联系。
